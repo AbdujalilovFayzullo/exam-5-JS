@@ -1,0 +1,18 @@
+@import "./mixin";
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+    object-fit: cover;
+    vertical-align: middle;
+}
+body{
+  overflow-x: hidden
+}
+@import './font';
+@import "./veraybels";
+@import "./allblockss/all-block";
